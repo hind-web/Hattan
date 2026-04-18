@@ -108,7 +108,7 @@ async def send_welcome(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(WELCOME_MESSAGE, reply_markup=MAIN_KEYBOARD)
 
 
-first_name}\n"
+first_name\n"
         f"اليوزر: {username_display}\n"
         f"الـ ID: {user.id}\n"
         f"─────────────────\n"
